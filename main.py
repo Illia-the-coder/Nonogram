@@ -10,9 +10,9 @@ pygame.init()  # запускаємо цикл гри
 pygame.mixer.init()
 
 # Load sound effects
-click_sound = pygame.mixer.Sound("click_sound.wav")
-error_sound = pygame.mixer.Sound("error_sound.wav")
-background_music = pygame.mixer.Sound("background_music.mp3")
+click_sound = pygame.mixer.Sound("music/click_sound.wav")
+error_sound = pygame.mixer.Sound("music/error_sound.wav")
+background_music = pygame.mixer.Sound("music/background_music.mp3")
 
 # Play background music
 background_music.play(-1)
